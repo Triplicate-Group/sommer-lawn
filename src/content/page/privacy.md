@@ -20,7 +20,7 @@ Sommer Lawn uses SMS messaging to communicate important updates, customer servic
 
 #### Opt-In
 
-By providing your number, you agree to be contacted by us for service updates or marketing.
+By checking the SMS opt-in checkbox on our quote form at <https://quote.sommerlawn.com>, you agree to be contacted by us for service updates or marketing.
 
 #### Opt-Out Methods
 
