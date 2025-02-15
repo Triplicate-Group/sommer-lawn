@@ -4,7 +4,6 @@ import type { CollectionEntry } from 'astro:content'
 import coverSVG from '../assets/svg/astro/logomark-dark.svg'
 import socialImage from '../assets/svg/astro/logomark-dark.svg'
 import AreationHero from '../components/aerationHero.astro'
-import Quote from '../components/aerationquote.astro'
 import ReviewsCarousel from '../components/carousel.astro'
 import CTA from '../components/cta.astro'
 import MowingService from '../content/page/aeration.md'
@@ -90,7 +89,6 @@ export const reviewsCarouselPages = [
 
 <Base frontmatter={frontmatter} schema='MowingPage'>
   <AreationHero />
-  <Quote />
   <MowingService />
   <CTA />
 </Base>

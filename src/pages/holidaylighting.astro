@@ -4,7 +4,6 @@ import type { CollectionEntry } from 'astro:content'
 import coverSVG from '../assets/svg/astro/logomark-dark.svg'
 import socialImage from '../assets/svg/astro/logomark-dark.svg'
 import LightingHero from '../components/lightingHero.astro'
-import Quote from '../components/aerationquote.astro'
 import CTA from '../components/cta.astro'
 
 const frontmatter: CollectionEntry<'page'>['data'] = {
@@ -19,6 +18,5 @@ const frontmatter: CollectionEntry<'page'>['data'] = {
 
 <Base frontmatter={frontmatter} schema='MowingPage'>
   <LightingHero />
-  <Quote />
   <CTA />
 </Base>
