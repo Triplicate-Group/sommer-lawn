@@ -1,0 +1,20 @@
+---
+import { Icon } from 'astro-icon/components'
+---
+
+<div class='relative ml-3' x-data='{ themeOpen: false }'>
+  <div>
+    <a href='https://portal.sommerlawn.com/'>
+      <button
+        type='button'
+        class='dark:sky-700 inline-flex w-full justify-center rounded-md border border-sky-300 bg-sky-300 px-4 py-2 text-sm font-medium text-gray-700 shadow-sm hover:bg-sky-200 focus:outline-none focus:ring-2 focus:ring-sky-500 focus:ring-offset-2 focus:ring-offset-sky-300 dark:bg-sky-600 dark:text-gray-100 dark:hover:bg-sky-300 dark:focus:ring-offset-sky-700'
+        id='login-button'
+        aria-expanded='true'
+        aria-haspopup='true'
+      >
+        Login
+        <Icon class='-mr-1 ml-2 h-5 w-5' aria-hidden='true' name='heroicons:user' />
+      </button>
+    </a>
+  </div>
+</div>
