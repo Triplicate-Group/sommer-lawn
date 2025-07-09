@@ -3,6 +3,7 @@ import { Icon } from 'astro-icon/components'
 import { NavigationLinks } from '../config'
 // import Search from '../components/search.astro'
 import Theme from '../components/theme.astro'
+import Login from '../components/login.astro'
 import { Logo } from '../config'
 ---
 
@@ -14,7 +15,7 @@ import { Logo } from '../config'
       <div class='relative flex h-16 items-center justify-between'>
         <div class='absolute inset-y-0 left-0 flex items-center lg:hidden'>
           <!-- Mobile menu button-->
-           <!-- TODO: Update colors for mobile -->
+          <!-- TODO: Update colors for mobile -->
           <button
             type='button'
             x-on:click='isOpen = !isOpen'
@@ -71,6 +72,14 @@ import { Logo } from '../config'
         >
           <!-- <Search /> -->
           <Theme />
+
+          <!-- Right nav -->
+        </div>
+        <div
+          class='absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0'
+        >
+          <!-- <Search /> -->
+          <Login />
 
           <!-- Right nav -->
         </div>
